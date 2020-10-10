@@ -1,0 +1,174 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 1em;
+}
+
+@media screen and (min-width: 1400px) {
+    #navbar {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}
+
+#logo {
+    width: 50%;
+}
+
+.navbar {
+    position: relative;
+    padding: 1em;
+}
+
+.brand {
+    position: absolute;
+    left: 51%;
+    margin-left: -50px;
+    display: block;
+}
+
+#download-badge {
+    font-size: 15px;
+    color: #d7d9dc;
+}
+
+#download-badge:hover {
+    color: #fff;
+}
+
+#download-badge:hover #download-icon {
+    animation: fa-spin 1s infinite linear;
+}
+
+#nav-item:hover {
+    transition: background-color .12s ease-out;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: #fff!important;
+}
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+}
+
+.jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.5;
+}
+
+.jumbotron .container {
+    z-index: 2;
+    position: relative;
+}
+  
+.container {
+    padding-bottom: 2em;
+}
+
+.card {
+    margin-top: 2em;
+}
+
+#card-1 {
+    border-bottom-width: 2px;
+    border-bottom-color: #ef5350;
+}
+
+#card-1 .icon {
+    color: #ef5350;
+}
+
+#card-2 {
+    border-bottom-width: 2px;
+    border-bottom-color: green;
+}
+
+#card-2 .icon {
+    color: green;
+}
+
+#card-3 {
+    border-bottom-width: 2px;
+    border-bottom-color: #65D7E5;
+}
+
+#card-3 .icon {
+    color: #65D7E5;
+}
+
+#card-4 {
+    border-bottom-width: 2px;
+    border-bottom-color: orange;
+}
+
+#card-4 .icon {
+    color: orange;
+}
+
+.icon {
+    margin: auto;
+    padding-top: 1rem;
+}
+
+/* #discord {
+    width: 100%;
+    height: 350px;
+    padding-top: 2em;
+} */
+
+#discord {
+    background-color: #f8f9fa;
+    background-position: 0 50%;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+#discord-blur {
+    background-color: rgba(52,58,64,.8);
+    height: 220px;
+    border-radius: 10px;
+}
+
+#discord-link {
+    text-decoration: none;
+}
+
+#discord-link:hover {
+    transition: color .20s ease-out;
+    color: grey!important;
+}
+
+#discord-text-space {
+    padding-top: 4em;
+}
+
+#copyright {
+    padding-top: 1em;
+    float: none;
+    margin: auto;
+    text-decoration: none;
+}
